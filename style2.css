@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(#ff7edd, #dd1985);
+}
+
+header #h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+
+  color: white;
+}
+
+header #p1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+
+  color: white;
+}
+
+main {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0.25turn, #ffb5f8, #ffffff, #ffb5f8);
+  width: 34rem;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+.card img {
+  max-width: 32rem;
+  border-radius: 2rem;
+}
+
+footer p {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 3rem;
+  max-width: 35rem;
+  margin: 2rem auto;
+
+  color: white;
+}
